@@ -3,12 +3,58 @@
     margin: 0;
     box-sizing: border-box;
     color: #a09038;
+    font-family: 'Poppins', sans-serif;
 }
 
 ul{
     list-style: none;
+    font-style: italic;
 }
 
 a{
     text-decoration: none;
+    font-weight: 700;
+}
+
+img{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+body{
+    /* background-image: url(./pexels-anni-roenkae-2156881.jpg);
+    background-repeat: no-repeat;
+    background-position: center center fixed; */
+
+    background: url(./pexels-anni-roenkae-2156881.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.container{
+    text-align: center;
+}
+
+.container .name h1{
+    font-size: 50px;
+}
+
+.container .name h5{
+    font-size: 25px;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form button {
+    width: 15%;
 }
